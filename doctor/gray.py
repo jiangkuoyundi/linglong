@@ -10,7 +10,7 @@ import urlparse
 import parse
 # post请求登录
 rs= requests.session()
-payload = {'username': 'sunyuxin', 'password': 'rQAxtGafTiXkym'}
+payload = {'username': 'sunyuxin', 'password': ''}
 p = rs.post('http://navigator-admin.linglongtech.com/navigator_admin/login.do', data=payload)
 graysn = ['SA03211182217992']
 # 根据列表循环get请求获得数据
